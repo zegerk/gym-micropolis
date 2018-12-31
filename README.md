@@ -62,3 +62,9 @@ During training and inference, a micropolis gui will be rendered by default. Dur
 
 Any action that is successfully performed by the player on the subsection of the larger game-map which corresponds to the bot's play-area, is registered by the bot as an action of its own, sampled from its own action distribution, so that the player can influence the agent's training data in real time.
 
+
+# Ubuntu 18.10
+
+* virtualenv -p /usr/bin/python3 py3env
+* source py3env/bin/activate
+* pip install gym torch baselines matplotlib visdom vext vext.gi
